@@ -1,0 +1,1 @@
+insert into clients (name,lastname,dni,age,email,username,password,create_at,lastupdate) values('Pedro','Perez',25451236,30,'pedro@gmail.com','pedrito','p12345',NOW(),NOW())
