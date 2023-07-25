@@ -40,7 +40,7 @@ public class ClientController {
             return ResponseEntity.notFound().build();
         }
         entityClientDB.setUsername(entityClient.getUsername());
-        crudClientService.create(entityClient);
+        crudClientService.create(entityClientDB);
         return ResponseEntity.ok(entityClientDB);
     }
 
